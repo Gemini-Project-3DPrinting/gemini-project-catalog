@@ -1,0 +1,189 @@
+{
+  "contactUrl": "https://max.ru/u/f9LHodD0cOIDIEw2q19XY4fxnjVOx6_7jtAAz6P3K0CBlGEWiu6VFUDvC3Q",
+  "categories": [
+    {
+      "id": "decor",
+      "name": "Декор"
+    },
+    {
+      "id": "accessories",
+      "name": "Аксессуары"
+    },
+    {
+      "id": "gifts",
+      "name": "Подарки"
+    },
+    {
+      "id": "business",
+      "name": "Для бизнеса"
+    }
+  ],
+  "products": [
+    {
+      "id": "nameplates",
+      "name": "Именные таблички",
+      "category": "gifts",
+      "description": "Именные таблички. Дизайн и цвет можно обсудить индивидуально.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/nameplates-01.webp",
+        "assets/works/nameplates-02.webp",
+        "assets/works/nameplates-03.webp",
+        "assets/works/nameplates-04.webp",
+        "assets/works/nameplates-05.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/13",
+      "sourceText": "Именные таблички. \nЛюбой дизайн и цвет."
+    },
+    {
+      "id": "photo-keychain",
+      "name": "Брелок по фотографии",
+      "category": "accessories",
+      "description": "Брелок по фотографии. Пример выполненной работы из нашего канала.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/photo-keychain-01.webp",
+        "assets/works/photo-keychain-02.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/18",
+      "sourceText": "Брелок по фотографии."
+    },
+    {
+      "id": "greeting-cards",
+      "name": "Поздравительные открытки",
+      "category": "gifts",
+      "description": "Поздравительные открытки. Пример оформления из нашего канала.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/greeting-cards-01.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/20",
+      "sourceText": "Поздравительные открытки"
+    },
+    {
+      "id": "coffee-toppers",
+      "name": "Топперы для стаканчика кофе",
+      "category": "business",
+      "description": "Топперы для стаканчика кофе. В галерее — варианты из нашей публикации.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/coffee-toppers-01.webp",
+        "assets/works/coffee-toppers-02.webp",
+        "assets/works/coffee-toppers-03.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/21",
+      "sourceText": "Топперы для стаканчика кофе"
+    },
+    {
+      "id": "bathroom-set",
+      "name": "Подарочный набор для ванной",
+      "category": "gifts",
+      "description": "Подарочный набор для ванной комнаты. В галерее — фотографии набора и его деталей.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/bathroom-set-01.webp",
+        "assets/works/bathroom-set-02.webp",
+        "assets/works/bathroom-set-03.webp",
+        "assets/works/bathroom-set-04.webp",
+        "assets/works/bathroom-set-05.webp",
+        "assets/works/bathroom-set-06.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/24",
+      "sourceText": "Подарочный набор для ванной комнаты"
+    },
+    {
+      "id": "small-dried-flower-vases",
+      "name": "Вазочки для сухоцветов",
+      "category": "decor",
+      "description": "Небольшие вазы для сухоцветов. В галерее — формы и цвета из нашей публикации.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/small-dried-flower-vases-01.webp",
+        "assets/works/small-dried-flower-vases-02.webp",
+        "assets/works/small-dried-flower-vases-03.webp",
+        "assets/works/small-dried-flower-vases-04.webp",
+        "assets/works/small-dried-flower-vases-05.webp",
+        "assets/works/small-dried-flower-vases-06.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/30",
+      "sourceText": "Вазочки для сухостоя"
+    },
+    {
+      "id": "dried-flower-vases",
+      "name": "Вазы для сухоцветов",
+      "category": "decor",
+      "description": "Вазы для сухоцветов. Фотография композиции из нашего канала.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/dried-flower-vases-01.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/36",
+      "sourceText": "Вазы для сухостоя"
+    },
+    {
+      "id": "magnetic-drink-holder",
+      "name": "Магнитный держатель для напитков",
+      "category": "accessories",
+      "description": "Держатель для напитков с магнитом для использования в спортзале. На фотографиях — держатель и примеры его размещения.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/magnetic-drink-holder-01.webp",
+        "assets/works/magnetic-drink-holder-02.webp",
+        "assets/works/magnetic-drink-holder-03.webp",
+        "assets/works/magnetic-drink-holder-04.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/40",
+      "sourceText": "Держатель для напитков в спортзале с магнитом"
+    },
+    {
+      "id": "toppers-collection-2",
+      "name": "Топперы · коллекция 2",
+      "category": "business",
+      "description": "Вторая подборка топперов из нашего канала. Все изображения публикации сохранены в галерее.",
+      "price": "Цена по запросу",
+      "status": "Работа из портфолио · возможность повтора уточняйте",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/toppers-collection-2-01.webp",
+        "assets/works/toppers-collection-2-02.webp",
+        "assets/works/toppers-collection-2-03.webp"
+      ],
+      "specs": {},
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/44",
+      "sourceText": "Топперы часть 2"
+    }
+  ]
+}

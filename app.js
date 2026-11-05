@@ -106,3 +106,23 @@ $('copy').onclick = async () => {
 };
 $('year').textContent = new Date().getFullYear();
 load();
+
+// Load the exact owner-supplied PNG from two static transport parts.
+// Splitting changes transport only; the decoded PNG bytes remain identical.
+async function loadOriginalBrandLogo() {
+  const logo = document.querySelector('[data-original-brand-logo]');
+  if (!logo) return;
+  try {
+    const paths = ['assets/brand-logo-owner-1.b64', 'assets/brand-logo-owner-2.b64'];
+    const parts = await Promise.all(paths.map(async path => {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error('Logo HTTP ' + response.status);
+      return response.text();
+    }));
+    logo.src = 'data:image/png;base64,' + parts.join('').replace(/\s/g, '');
+  } catch (error) {
+    console.error('Brand logo:', error);
+    logo.hidden = true;
+  }
+}
+loadOriginalBrandLogo();

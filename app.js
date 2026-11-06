@@ -20,6 +20,7 @@ function image(path, alt) {
 function contactURL(value) {
   try { const url = new URL(value); return url.protocol === 'https:' ? url.href : '#contacts'; } catch { return '#contacts'; }
 }
+function productCategories(product) { return product.categories ?? [product.category]; }
 function categoryName(id) { return catalog.categories.find(c => c.id === id)?.name || id; }
 function renderFilters() {
   $('filters').replaceChildren();
@@ -30,7 +31,7 @@ function renderFilters() {
   });
 }
 function render() {
-  const products = catalog.products.filter(p => p.visible !== false && (category === 'all' || p.category === category) && `${p.name} ${p.description} ${categoryName(p.category)}`.toLocaleLowerCase('ru').includes(query));
+  const products = catalog.products.filter(p => p.visible !== false && (category === 'all' || productCategories(p).includes(category)) && `${p.name} ${p.description} ${productCategories(p).map(categoryName).join(' ')}`.toLocaleLowerCase('ru').includes(query));
   $('grid').replaceChildren(); $('count').textContent = `Изделий: ${products.length}`; $('empty').hidden = products.length !== 0;
   products.forEach(p => {
     const card = node('button', 'card'); card.type = 'button'; card.setAttribute('aria-label', `Подробнее: ${p.name}${p.demo ? ' — демонстрационный пример' : ''}`);
@@ -38,7 +39,7 @@ function render() {
     if (p.demo) visual.append(node('span', 'demo-badge', 'ДЕМО'));
     if (p.images.length > 1) visual.append(node('span', 'photo-badge', `${p.images.length} фото`));
     const arrow = node('span', 'card-arrow', '↗'); arrow.setAttribute('aria-hidden', 'true'); visual.append(arrow);
-    card.append(visual, node('p', 'card-category', categoryName(p.category)), node('h3', '', p.name), node('p', 'card-meta', p.price || 'Цена по запросу'));
+    card.append(visual, node('h3', '', p.name), node('p', 'card-meta', p.price || 'Цена по запросу'));
     card.onclick = () => openProduct(p); $('grid').append(card);
   });
 }
@@ -52,7 +53,7 @@ function showPhoto(index) {
 }
 function openProduct(p) {
   activeProduct = p;
-  $('detail-title').textContent = p.name; $('detail-category').textContent = categoryName(p.category);
+  $('detail-title').textContent = p.name;
   $('detail-demo').hidden = !p.demo; $('detail-description').textContent = p.description;
   const source = $('detail-source');
   source.hidden = !/^https:\/\/t\.me\/geminiproject_3dprinting\/\d+$/.test(p.sourceUrl || '');
@@ -73,7 +74,7 @@ async function load() {
     if (!Array.isArray(data.categories) || !Array.isArray(data.products)) throw new Error('Неверная структура products.json');
     const ids = new Set();
     data.products.forEach(p => {
-      if (!p.id || ids.has(p.id) || typeof p.name !== 'string' || typeof p.description !== 'string' || !data.categories.some(c => c.id === p.category)) throw new Error('Проверьте названия, категории и уникальность id товаров');
+      if (!p.id || ids.has(p.id) || typeof p.name !== 'string' || typeof p.description !== 'string' || !Array.isArray(productCategories(p)) || !productCategories(p).length || !productCategories(p).every(id => data.categories.some(c => c.id === id))) throw new Error('Проверьте названия, категории и уникальность id товаров');
       ids.add(p.id); if (!Array.isArray(p.images) || !p.images.length) p.images = ['assets/placeholder.svg'];
     });
     catalog = data;

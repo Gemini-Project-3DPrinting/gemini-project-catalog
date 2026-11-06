@@ -35,7 +35,11 @@
         "assets/works/telegram-51-05.webp",
         "assets/works/telegram-51-06.webp"
       ],
-      "sourceUrl": "https://t.me/geminiproject_3dprinting/51"
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/51",
+      "categories": [
+        "business",
+        "accessories"
+      ]
     },
     {
       "id": "nfc-review-sign",
@@ -56,7 +60,7 @@
     {
       "id": "nameplates",
       "name": "Именные таблички",
-      "category": "gifts",
+      "category": "business",
       "description": "Именные таблички. Дизайн и цвет можно обсудить индивидуально.",
       "price": "Цена по запросу",
       "status": "Работа из портфолио · возможность повтора уточняйте",
@@ -71,7 +75,11 @@
       ],
       "specs": {},
       "sourceUrl": "https://t.me/geminiproject_3dprinting/13",
-      "sourceText": "Именные таблички. \nЛюбой дизайн и цвет."
+      "sourceText": "Именные таблички. \nЛюбой дизайн и цвет.",
+      "categories": [
+        "business",
+        "accessories"
+      ]
     },
     {
       "id": "photo-keychain",
@@ -88,7 +96,11 @@
       ],
       "specs": {},
       "sourceUrl": "https://t.me/geminiproject_3dprinting/18",
-      "sourceText": "Брелок по фотографии."
+      "sourceText": "Брелок по фотографии.",
+      "categories": [
+        "accessories",
+        "gifts"
+      ]
     },
     {
       "id": "greeting-cards",
@@ -141,7 +153,11 @@
       ],
       "specs": {},
       "sourceUrl": "https://t.me/geminiproject_3dprinting/40",
-      "sourceText": "Держатель для напитков в спортзале с магнитом"
+      "sourceText": "Держатель для напитков в спортзале с магнитом",
+      "categories": [
+        "accessories",
+        "gifts"
+      ]
     },
     {
       "id": "toppers-collection-2",

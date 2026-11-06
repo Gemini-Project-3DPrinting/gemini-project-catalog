@@ -20,6 +20,22 @@
   ],
   "products": [
     {
+      "id": "nfc-review-sign",
+      "name": "NFC-табличка для отзывов",
+      "category": "business",
+      "description": "Приложите смартфон к табличке, чтобы открыть страницу заведения в Яндекс Картах и оставить отзыв. Подходит для кофеен, магазинов, салонов и других заведений.",
+      "price": "Цена по запросу",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/telegram-47-01.webp",
+        "assets/works/telegram-47-02.webp",
+        "assets/works/telegram-47-03.webp",
+        "assets/works/telegram-47-04.webp"
+      ],
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/47"
+    },
+    {
       "id": "nameplates",
       "name": "Именные таблички",
       "category": "gifts",

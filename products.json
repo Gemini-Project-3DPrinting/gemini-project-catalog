@@ -125,64 +125,6 @@
       "sourceText": "Топперы для стаканчика кофе"
     },
     {
-      "id": "bathroom-set",
-      "name": "Подарочный набор для ванной",
-      "category": "gifts",
-      "description": "Подарочный набор для ванной комнаты. В галерее — фотографии набора и его деталей.",
-      "price": "Цена по запросу",
-      "status": "Работа из портфолио · возможность повтора уточняйте",
-      "demo": false,
-      "visible": true,
-      "images": [
-        "assets/works/bathroom-set-01.webp",
-        "assets/works/bathroom-set-02.webp",
-        "assets/works/bathroom-set-03.webp",
-        "assets/works/bathroom-set-04.webp",
-        "assets/works/bathroom-set-05.webp",
-        "assets/works/bathroom-set-06.webp"
-      ],
-      "specs": {},
-      "sourceUrl": "https://t.me/geminiproject_3dprinting/24",
-      "sourceText": "Подарочный набор для ванной комнаты"
-    },
-    {
-      "id": "small-dried-flower-vases",
-      "name": "Вазочки для сухоцветов",
-      "category": "decor",
-      "description": "Небольшие вазы для сухоцветов. В галерее — формы и цвета из нашей публикации.",
-      "price": "Цена по запросу",
-      "status": "Работа из портфолио · возможность повтора уточняйте",
-      "demo": false,
-      "visible": true,
-      "images": [
-        "assets/works/small-dried-flower-vases-01.webp",
-        "assets/works/small-dried-flower-vases-02.webp",
-        "assets/works/small-dried-flower-vases-03.webp",
-        "assets/works/small-dried-flower-vases-04.webp",
-        "assets/works/small-dried-flower-vases-05.webp",
-        "assets/works/small-dried-flower-vases-06.webp"
-      ],
-      "specs": {},
-      "sourceUrl": "https://t.me/geminiproject_3dprinting/30",
-      "sourceText": "Вазочки для сухостоя"
-    },
-    {
-      "id": "dried-flower-vases",
-      "name": "Вазы для сухоцветов",
-      "category": "decor",
-      "description": "Вазы для сухоцветов. Фотография композиции из нашего канала.",
-      "price": "Цена по запросу",
-      "status": "Работа из портфолио · возможность повтора уточняйте",
-      "demo": false,
-      "visible": true,
-      "images": [
-        "assets/works/dried-flower-vases-01.webp"
-      ],
-      "specs": {},
-      "sourceUrl": "https://t.me/geminiproject_3dprinting/36",
-      "sourceText": "Вазы для сухостоя"
-    },
-    {
       "id": "magnetic-drink-holder",
       "name": "Магнитный держатель для напитков",
       "category": "accessories",

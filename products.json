@@ -20,6 +20,24 @@
   ],
   "products": [
     {
+      "id": "nfc-keychains-business-cards",
+      "name": "NFC-брелоки и визитки",
+      "category": "business",
+      "description": "Приложите смартфон к брелоку или визитке, чтобы открыть персональную страницу с контактами, портфолио и ссылками на соцсети. Доступны разные дизайны и размеры.",
+      "price": "Цена по запросу",
+      "demo": false,
+      "visible": true,
+      "images": [
+        "assets/works/telegram-51-01.webp",
+        "assets/works/telegram-51-02.webp",
+        "assets/works/telegram-51-03.webp",
+        "assets/works/telegram-51-04.webp",
+        "assets/works/telegram-51-05.webp",
+        "assets/works/telegram-51-06.webp"
+      ],
+      "sourceUrl": "https://t.me/geminiproject_3dprinting/51"
+    },
+    {
       "id": "nfc-review-sign",
       "name": "NFC-табличка для отзывов",
       "category": "business",

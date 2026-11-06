@@ -39,7 +39,7 @@ function render() {
     if (p.demo) visual.append(node('span', 'demo-badge', 'ДЕМО'));
     if (p.images.length > 1) visual.append(node('span', 'photo-badge', `${p.images.length} фото`));
     const arrow = node('span', 'card-arrow', '↗'); arrow.setAttribute('aria-hidden', 'true'); visual.append(arrow);
-    card.append(visual, node('h3', '', p.name), node('p', 'card-meta', p.price || 'Цена по запросу'));
+    card.append(visual, node('h3', '', p.name), node('p', 'card-meta', 'Индивидуальный заказ'));
     card.onclick = () => openProduct(p); $('grid').append(card);
   });
 }
